@@ -136,8 +136,89 @@
 # print(s)
 
 # ---conversion(tuple to set)---
-a = [1,2,3,4,5,6]
-s = set(a)
-print(s)
+# a = [1,2,3,4,5,6]
+# s = set(a)
+# print(s)
+
+# -----UNION & INTERSECTION-----
+
+# a = {1,2,3,4,5}
+# b = { 2,4,6,8}
+# c = a.union(b)
+# print("the union is : ",c)
+# d = a.intersection(b)
+# print("the intersection is : ",d)
 
 
+# -----dictionary------
+
+# s = {'a': 1, 'b':2, 'c':3, 'd':4, 'e':5}
+# #  to print a value in the dictionary
+# print(s['b'])
+# print(type(s))
+# print(s)
+
+
+# data = { 'name':["aara","entha","enthina"] , 'age':[25,26,27], 'salary':[20000,21000,22000 ]}
+
+# print(data['name'])
+# print(data.keys())
+# print(data.values())
+# data.pop('age')
+#print(data)
+# -----clear to delete all the data-----
+# data.clear()
+# print(data)
+
+
+# -----update-----
+# data = {'name': "John", 'age':22, 'salary':20000}
+# data.update(age="25")
+# print(data)
+
+
+# ------------NOTE------------------------
+
+
+# data.pop('age): pop use cheith ()il enthaano kodukkunne aa attribute pokum
+# data.popitem() : popitem use cheith last item pokum
+
+
+# ----------------
+
+# ---------------CHATGPT CODE FOR MULTIPLE USER AND SELECT A USER BY SEARCH------------------
+
+# # 10 membersinte details store cheyyunna list of dictionaries
+# members = [
+#     {"name": "Anu", "age": 25, "salary": 50000},
+#     {"name": "Ravi", "age": 30, "salary": 60000},
+#     {"name": "Maya", "age": 28, "salary": 55000},
+#     {"name": "Rahul", "age": 35, "salary": 75000},
+#     {"name": "Sneha", "age": 24, "salary": 48000},
+#     {"name": "Arjun", "age": 29, "salary": 62000},
+#     {"name": "Divya", "age": 27, "salary": 51000},
+#     {"name": "Kiran", "age": 32, "salary": 70000},
+#     {"name": "Priya", "age": 26, "salary": 52000},
+#     {"name": "Vishnu", "age": 31, "salary": 68000},
+# ]
+
+# # User input edukkunnu
+# search_name = input("Enter the name of the member: ")
+
+# # Search cheythu result print cheyyunnu
+# found = False
+# for member in members:
+#     if member["name"].lower() == search_name.lower():
+#         print("Details found:")
+#         print(f"  Name: {member['name']}")
+#         print(f"  Age: {member['age']}")
+#         print(f"  Salary: {member['salary']}")
+#         found = True
+#         break
+
+# if not found:
+#     print("Member not found!")
+
+
+
+# ------------------------------------------------------------
