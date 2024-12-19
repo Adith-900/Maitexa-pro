@@ -36,7 +36,7 @@
 #     print("hai")
 #     i=i+1
 
-#------print numbers upto 10-------
+# ------print numbers upto 10-------
  
 # i = 1
 # while i <= 100: 
@@ -93,11 +93,11 @@
 # l.clear()
 # print(l)
 
-#-----max(biggest value) , min(smallest value)------
+# -----max(biggest value) , min(smallest value)------
 # print(max(l))
 # print(min(l))
 
-#-----extend( adding the values from one to other)-----
+# -----extend( adding the values from one to other)-----
 
 # a = [2,4,5,1,9]
 # b = [10,23,25,46]
@@ -165,7 +165,7 @@
 # print(data.keys())
 # print(data.values())
 # data.pop('age')
-#print(data)
+# print(data)
 # -----clear to delete all the data-----
 # data.clear()
 # print(data)
@@ -222,3 +222,85 @@
 
 
 # ------------------------------------------------------------
+
+
+# -----------FUNCTION---------------
+
+# -------NOTE--------
+
+#  def : used to define function
+#  eg 
+# def name():                first two lines are function definition
+#     print("Hai")
+# name()                     function calling
+# 
+# 
+
+# ------------------
+
+# def name():
+#     print("Hai")
+    
+# name()    
+
+
+# def add():
+#     a = 5
+#     b = 2
+#     print(a-b)
+#     print(a+b)
+#     print(a*b)
+#     print(a/b)
+#     print(a%b)
+# add() 
+
+
+# ----by using actual values------
+
+# def add(a,b):
+#     c=a+b
+#     print(c)
+# add(17,7)       
+
+# number = int(input("Enter a number:"))
+
+# def add():
+#     c = 2 * number
+#     print(c)
+# add()    
+
+# ------to find a number is odd or even------
+
+# num = int(input("Enter a number: "))
+
+# def check():
+#     if num % 2 == 0:
+#         print("Given number is an Even number")
+#     else:
+#         print("Given number is Odd Number")       
+        
+# check()      
+      
+# -------------------------------
+# ----------to find a number is odd or even by passing the number as a parameter------------
+#----------- method 1----------
+
+# def check(num):
+#     if num % 2 ==0:
+#         print("Given number is an Even number")
+#     else:
+#         print("Given number is odd")
+       
+# check(6)        
+
+
+# -------method 2-----------
+
+# def check():
+#     if num % 2 ==0:
+#         print("Given number is an Even number")
+#     else:
+#         print("Given number is odd")
+# num = 7       
+# check()
+# ------------------
