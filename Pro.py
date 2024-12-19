@@ -303,4 +303,15 @@
 #         print("Given number is odd")
 # num = 7       
 # check()
+
 # ------------------
+
+# -------OOPs--------
+
+# class name:
+#     first_name='Ajmal '
+#     second_name='Shareef'
+#     mark = 34
+# n1=name()
+# print(n1.first_name + n1.second_name)
+# print("You got",n1.mark,"mark")    
